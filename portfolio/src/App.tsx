@@ -1,4 +1,6 @@
 // eslint-disable-next-line no-unused-vars
+import { ThemeProvider } from 'styled-components'
+
 import Projetos from './containers/Projetos'
 import Sidebar from './containers/Sidebar'
 import Sobre from './containers/Sobre'
