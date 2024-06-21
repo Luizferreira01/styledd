@@ -3,14 +3,14 @@ import { MouseEventHandler } from 'react'
 import { P } from './styles'
 
 export type Props = {
-  trocaTema:  MouseEventHandler<HTMLButtonElement> | undefined
+  trocaTema: MouseEventHandler<HTMLButtonElement> | undefined
   children: string
   tipo?: 'principal' | 'secundario'
   fontSize?: number
 }
 
 const Paragrafo = ({ children, tipo = 'principal', fontSize }: Props) => (
-  <P fontSize={fontSize} tipo={tipo}>
+  <P trocaTema={trocatema} fontSize={fontSize} tipo={tipo}>
     {children}
   </P>
 )

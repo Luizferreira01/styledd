@@ -13,7 +13,7 @@ const Sidebar = (props: Props) => (
     <SiderbarContainer>
       <Avatar />
       <Titulo fontSize={20}>Luiz Felipe</Titulo>
-      <Paragrafo tipo="secundario" fontSize={16}>
+      <Paragrafo trocaTema={trocaTema} tipo="secundario" fontSize={16}>
         Luizferreira01
       </Paragrafo>
       <Descricao tipo="principal" fontSize={12}>
